@@ -1,28 +1,62 @@
-# AngularBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+# Angular Blog
 
-## Development server
+Este projeto foi criado como parte de um estudo e aprendizado seguindo um tutorial da Diome. Durante o curso, fiz ajustes e apliquei os conhecimentos adquiridos para melhorar a aplicação.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## O que foi feito
 
-## Code scaffolding
+- A aplicação foi construída utilizando **Angular 17**.
+- Estudo das **novas diretivas** do Angular 17, como `@for` e `@if`.
+- Utilização de **dados mockados** para simular uma API e exibir informações.
+- A aplicação está sendo **rodada com Docker Compose** na porta `8082`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Desenvolvimento e Execução
+
+A aplicação foi configurada para rodar em um servidor de desenvolvimento local utilizando **Docker Compose**, facilitando o processo de build e execução.
+
+Para rodar a aplicação, use:
+
+```bash
+docker-compose up --build
+```
+
+A aplicação estará disponível em `http://localhost:8082`.
+
+## Funcionalidades
+
+- A aplicação utiliza **dados mockados** para exibir conteúdo como posts de um blog.
+- Utiliza as novas **diretivas** `@for` e `@if` do Angular 17 para manipulação de loops e condicionais diretamente no template.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para gerar a versão de produção da aplicação, execute:
 
-## Running unit tests
+```bash
+ng build
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Os artefatos da build serão armazenados no diretório `dist/`.
 
-## Running end-to-end tests
+## Testes
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Execute os testes unitários com o comando:
 
-## Further help
+```bash
+ng test
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# angular-blog
+Para rodar os testes end-to-end:
+
+```bash
+ng e2e
+```
+
+## Mais informações
+
+Se precisar de mais detalhes sobre o projeto ou do Angular CLI, use:
+
+```bash
+ng help
+```
+
+Ou consulte a [Angular CLI Overview and Command Reference](https://angular.io/cli).
