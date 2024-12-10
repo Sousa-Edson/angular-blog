@@ -1,26 +1,26 @@
 export const MOCK = [
     {
         "id": "1",
-        "title": "NOVO HOMEM DE FERRO EM 3D",
-        "description": "marvel anuncia um novo filme do homem de ferro, confira",
-        "photoCover": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F51FA9F6CBD9F0C9B1394B1CC0A6A842D07091318674E234CD33CBF7C28CDC3/scale?width=1200&aspectRatio=1.78&format=jpeg"
+        "title": "Homem-Aranha: Através do Aranhaverso",
+        "description": "A Marvel Studios lança um novo capítulo do Homem-Aranha, explorando o multiverso com Miles Morales e novos heróis aranha.",
+        "photoCover": "https://t.ctcdn.com.br/koDRkrrzwgdG2kT1NrVjgJsYpbo=/1200x675/smart/i718486.png"
     },
     {
         "id": "2",
-        "title": "Nova Série anunciada no Disney +",
-        "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt velit tenetur consequatur amet ab iste laudantium magnam dolor non, similique asperiores esse neque ut sunt eos fuga ea, doloribus dolorem.",
-        "photoCover": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
+        "title": "Guardiões da Galáxia Vol. 3",
+        "description": "Os Guardiões retornam para uma nova aventura intergaláctica enquanto enfrentam velhos inimigos e lidam com questões pessoais.",
+        "photoCover": "https://cloud.estacaonerd.com/wp-content/uploads/2023/05/03162254/guardioes-da-galaxia-vol-3.jpg"
     },
     {
         "id": "3",
-        "title": "Novo filme do pantera negra lançado em breve",
-        "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt velit tenetur consequatur amet ab iste laudantium magnam dolor non, similique asperiores esse neque ut sunt eos fuga ea, doloribus dolorem.",
-        "photoCover": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/35720ACD323F927C3A83D809D0F460BD3651740DA519BCC184B6F042057EA14D/scale?width=1200&aspectRatio=1.78&format=jpeg"
+        "title": "Doutor Estranho no Multiverso da Loucura",
+        "description": "Doutor Estranho explora os limites do multiverso e enfrenta novos desafios místicos.",
+        "photoCover": "https://sm.ign.com/ign_br/screenshot/default/doutor-estranho-multiverso-loucura_jmqu.jpg"
     },
     {
         "id": "4",
-        "title": "Novo filme dos X-men está em pós produção, afirma diretor",
-        "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt velit tenetur consequatur amet ab iste laudantium magnam dolor non, similique asperiores esse neque ut sunt eos fuga ea, doloribus dolorem.",
-        "photoCover": "https://midias.correiobraziliense.com.br/_midias/jpg/2022/07/22/675x450/1_xmen-26096415.jpeg?20220722171339?20220722171339"
+        "title": "Thor: Amor e Trovão",
+        "description": "Thor embarca em uma jornada de autodescoberta enquanto enfrenta a poderosa vilã Gorr, a Carniceira dos Deuses.",
+        "photoCover": "https://rollingstone.com.br/media/_versions/thor-amor-e-trovao-4-jane-poderosa-foto-reproducao_widelg.jpg"
     }
 ]
