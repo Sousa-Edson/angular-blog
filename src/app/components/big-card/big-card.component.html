@@ -1,11 +1,24 @@
-<div class="container-big-card">
-  <div class="big-card-photo">
-    <img src="https://placehold.co/800x400" alt="imagem" height="200px" />
+<div class="container__big-card">
+
+  <div class="big-card__photo">
+    <img
+      src="{{ photoCover }}"
+      alt=""
+      height="200px"
+      srcset=""
+    >
   </div>
-  <div class="big-card-title"><h1>Saiu uma nova versão do Angular</h1></div>
-  <div class="big-card-descrition">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aspernatur
-    autem eum sit atque? Officia ducimus repellendus deleniti sunt, facilis
-    eligendi amet officiis, esse unde iure quo modi mollitia architecto.
+
+  <div class="big-card__title">
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
+
+  <div class="big-card__description">
+    <p>
+      <a [routerLink]="['content', Id]">
+          {{ cardDescription }}
+      </a>
+    </p>
+  </div>
+
 </div>
